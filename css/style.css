@@ -138,15 +138,25 @@ header{
         font-size: x-small; 
     }
     .check-mark{
-        height: 10px;
-        padding: 2px;
+        height: 20px;
+        width: 20px;
+        display: inline-block;
+        text-align: center;
+        align-items: center;
+        vertical-align: middle;
+        line-height: 20px;
         color: lightgreen;
-        border-radius: 50px;
+        border-radius: 50%;
         border: 1px solid lightgreen;
     }
     .cross-mark{
-        height: 10px;
-        padding: 2px;
+        height: 20px;
+        width: 20px;
+        display: inline-block;
+        text-align: center;
+        align-items: center;
+        vertical-align: middle;
+        line-height: 20px;
         color: red;
         border-radius: 50%;
         border: 1px solid red;  
