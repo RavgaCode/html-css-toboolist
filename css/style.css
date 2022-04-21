@@ -17,7 +17,6 @@
     margin-top: 40px;
     background-color: white;
     padding-top: 10px;
-    padding-left: 40px;
     height: 550px;
     border-radius: 10px;
 }
@@ -38,30 +37,113 @@ header{
     font-size: 40px;
 }
 /* Main */
-.backgrey{
-    background-color: grey;
-}
-.button-area{
-    height: 70px;
-    margin-bottom: solid red;
-}
-#blue-button{
-    height: 30px;
-    background-color:#47ADF1;
-    padding: 5px;
-    border-radius: 5px;
-    color: white;
-    border: 2px solid;
-}
-#grey-button{
-    height: 30px;
-    background-color: white;
-    padding: 5px;
-    border-radius: 5px;
-    color:#D0D5D9;
-    border: 2px solid;
-}
-}
-.no-points{
-    list-style-type: none;
-}
+    /* Button Area */
+    .backgrey{
+        background-color: grey;
+    }
+    .button-area{
+        height: 50px;
+        border-bottom: 2px solid #F6F8F9;
+    }
+    #blue-button{
+        height: 30px;
+        background-color:#47ADF1;
+        padding: 5px;
+        border-radius: 5px;
+        color: white;
+        border: 2px solid;
+        margin-left: 40px;
+    }
+    #grey-button{
+        height: 30px;
+        background-color: white;
+        padding: 5px;
+        border-radius: 5px;
+        color:#D0D5D9;
+        border: 2px solid;
+    }
+
+    /* List-Area */
+
+    .no-points{
+        list-style-type: none;
+    }
+    .list-area{
+        padding-left: 40px;
+        padding-bottom: 40px
+    }
+    .topspace{
+        padding-top: 40px;
+    }
+    .list-title{
+        font-weight: 800;
+    }
+    /* Category-Tags */
+    .editorial-tag{
+        height: 10px;
+        background-color:#47ADF1;
+        padding: 7px;
+        border-radius: 15px;
+        color: white;
+        border: 2px solid;
+        font-size: x-small;
+    }
+    .q1goals-tag{
+        height: 10px;
+        background-color:purple;
+        padding: 7px;
+        border-radius: 15px;
+        color: white;
+        border: 2px solid;
+        font-size: x-small;
+    }
+    .recruiting-tag{
+        height: 10px;
+        background-color:green;
+        padding: 7px;
+        border-radius: 15px;
+        color: white;
+        border: 2px solid;
+        font-size: x-small; 
+    }
+    .mobile-tag{
+        height: 10px;
+        background-color:orange;
+        padding: 7px;
+        border-radius: 15px;
+        color: white;
+        border: 2px solid;
+        font-size: x-small;  
+    }
+    .website-tag{
+        height: 10px;
+        background-color:pink;
+        padding: 7px;
+        border-radius: 15px;
+        color: white;
+        border: 2px solid;
+        font-size: x-small; 
+    }
+    .sales-tag{
+        height: 10px;
+        background-color:lightgreen;
+        padding: 7px;
+        border-radius: 15px;
+        color: white;
+        border: 2px solid;
+        font-size: x-small; 
+    }
+    .check-mark{
+        height: 10px;
+        padding: 2px;
+        color: lightgreen;
+        border-radius: 50px;
+        border: 1px solid lightgreen;
+    }
+    .cross-mark{
+        height: 10px;
+        padding: 2px;
+        color: red;
+        border-radius: 50px;
+        border: 1px solid red;  
+    }
